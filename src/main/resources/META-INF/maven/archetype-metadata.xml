@@ -539,10 +539,10 @@
         <include>archetype.properties</include>
       </includes>
     </fileSet>
-    <fileSet filtered="true" encoding="UTF-8">
+    <fileSet filtered="false" encoding="UTF-8">
       <directory>aem-site-template</directory>
       <includes>
-        <include>README.md</include>
+        <include>**/*.*</include>
       </includes>
     </fileSet>
   </fileSets>

@@ -1,22 +1,12 @@
 # AEM Quick Site Template with Proxy Component Support
 
-My app ${appId}
-
-```bash
-mvn -B archetype:generate \
- -D archetypeGroupId=com.adobe.aem \
- -D archetypeArtifactId=aem-project-archetype \
- -D archetypeVersion=27 \
- -D appTitle="My Site" \
- -D appId="mysite" \
- -D groupId="com.mysite"
- ```
-
 build and install the generated project (no need to install the content but ok to do so)
 
 then build this project
 
 ```bash
+npm i
+git init
 npm run build
 npm run deploy
 ```

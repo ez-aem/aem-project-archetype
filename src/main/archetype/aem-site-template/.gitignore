@@ -84,7 +84,6 @@ buildNumber.properties
 
 node_modules
 npm-debug.log
-package-lock.json
 
 ez-aem-site-template-minimal-*.zip
 
