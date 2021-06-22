@@ -106,6 +106,10 @@ removeModule(rootPom, 'dispatcher.ams')
 assert new File(rootDir, 'dispatcher.cloud').deleteDir()
 removeModule(rootPom, 'dispatcher.cloud')
 
+if (includeQuickSiteTemplate == "n") {
+    assert new File(rootDir, "aem-site-template").deleteDir()
+}
+
 if (includeCommerce == "n") {
     assert new File(rootDir, "README-CIF.md").delete()
     assert new File("$appsFolder/components/commerce").deleteDir()

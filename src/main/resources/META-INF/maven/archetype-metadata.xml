@@ -182,6 +182,14 @@
             <validationRegex>^(y|n)$</validationRegex>
         </requiredProperty>
 
+        <!--
+            Option to include Quick Sites Template
+            aem-site-template directory.
+        -->
+        <requiredProperty key="includeQuickSiteTemplate">
+            <defaultValue>n</defaultValue>
+            <validationRegex>^(y|n)$</validationRegex>
+        </requiredProperty>
     </requiredProperties>
 
     <modules>
@@ -529,6 +537,12 @@
       <directory></directory>
       <includes>
         <include>archetype.properties</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory>aem-site-template</directory>
+      <includes>
+        <include>README.md</include>
       </includes>
     </fileSet>
   </fileSets>
