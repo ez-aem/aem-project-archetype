@@ -17,18 +17,18 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="${appId}/components/navigation"
                 collectAllPages="false"
-                navigationRoot="/content/mysite-template/us/en"
+                navigationRoot="/content/${appId}-template/us/en"
                 skipNavigationRoot="false"
                 structureDepth="1"/>
             <languagenavigation
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="${appId}/components/languagenavigation"
-                navigationRoot="/content/mysite-template/us"
+                navigationRoot="/content/${appId}-template/us"
                 structureDepth="2"/>
             <search
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="${appId}/components/search"
-                searchRoot="/content/mysite-template/us"/>
+                searchRoot="/content/${appId}-template/us"/>
         </root>
     </jcr:content>
 </jcr:root>

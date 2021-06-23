@@ -3,7 +3,7 @@
           jcr:primaryType="nt:unstructured">
     <com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
         jcr:primaryType="nt:unstructured"
-        prefixPath="/content/mysite.theme/_default">
+        prefixPath="/content/${appId}.theme/_default">
         <css
             jcr:primaryType="nt:unstructured"
             element="link"
