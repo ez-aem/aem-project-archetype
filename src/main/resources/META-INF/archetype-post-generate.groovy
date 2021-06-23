@@ -108,6 +108,7 @@ removeModule(rootPom, 'dispatcher.cloud')
 
 if (includeQuickSiteTemplate == "n") {
     assert new File(rootDir, "aem-site-template").deleteDir()
+    assert new File(rootDir, "README-QUICK_SITE.md").delete()
 }
 
 if (includeCommerce == "n") {
