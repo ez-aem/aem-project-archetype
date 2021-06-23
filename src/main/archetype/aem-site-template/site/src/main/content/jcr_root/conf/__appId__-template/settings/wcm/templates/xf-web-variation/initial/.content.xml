@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:tags="[experience-fragments:variation/web]"
-        cq:template="/conf/mysite-template/settings/wcm/templates/xf-web-variation"
+        cq:template="/conf/${appId}-template/settings/wcm/templates/xf-web-variation"
         cq:xfVariantType="web"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="${appId}/components/xfpage">
