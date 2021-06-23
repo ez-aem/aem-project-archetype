@@ -5,7 +5,8 @@
   "license": "MIT License, Copyright 2020 Adobe Systems Incorporated",
   "scripts": {
     "build": "aem-site-template-builder",
-    "deploy": "curl -u admin:admin -F file=@mysite-template-latest.zip http://localhost:4502/conf/global/site-templates.import.html"
+    "deploy": "curl -u admin:admin -F file=@mysite-template-latest.zip http://localhost:4502/conf/global/site-templates.import.html",
+    "undeploy": "curl -u admin:admin -F ':operation=delete' http://localhost:4502/conf/global/site-templates/mysite-template-0.0.5"
   },
   "devDependencies": {
     "@adobe/aem-site-template-builder": "2.1.3",
