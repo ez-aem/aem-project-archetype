@@ -5,7 +5,7 @@
         cq:allowedTemplates="[/conf/mysite-template/settings/wcm/templates/(?!xf-).*]"
         cq:conf="/conf/mysite-template"
         jcr:primaryType="cq:PageContent"
-        jcr:title="My Site"
+        jcr:title="${appTitle}"
         sling:configRef="/conf/mysite-template"
         sling:redirect="{Boolean}true"
         sling:redirectStatus="{Long}302"

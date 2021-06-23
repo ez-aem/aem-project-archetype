@@ -4,7 +4,7 @@
     <jcr:content
         cq:conf="/conf/aem-site-template-basic"
         jcr:primaryType="nt:unstructured"
-        jcr:title="My Site">
+        jcr:title="${appTitle}">
     </jcr:content>
     <asset.jpg/>
 </jcr:root>

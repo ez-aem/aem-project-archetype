@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Template">
     <jcr:content
         jcr:primaryType="cq:PageContent"
-        jcr:description="My Site Remote Page Template"
+        jcr:description="${appTitle} Remote Page Template"
         jcr:title="Remote SPA Page"
         status="enabled"/>
 </jcr:root>
