@@ -8,17 +8,17 @@
         cq:xfVariantType="web"
         jcr:primaryType="cq:PageContent"
         jcr:title="Footer"
-        sling:resourceType="mysite/components/xfpage">
+        sling:resourceType="${appId}/components/xfpage">
         <root
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="mysite/components/container"
+            sling:resourceType="${appId}/components/container"
             layout="responsiveGrid">
             <separator
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="mysite/components/separator"/>
+                sling:resourceType="${appId}/components/separator"/>
             <text
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="mysite/components/text"
+                sling:resourceType="${appId}/components/text"
                 text="&lt;p>Copyright 2021, My Site.&amp;nbsp;All rights reserved.&lt;/p>&#xd;&#xa;&lt;p>345 Park Avenue,&amp;nbsp;San Jose, CA 95110-2704, USA&lt;/p>&#xd;&#xa;"
                 textIsRich="true"/>
         </root>

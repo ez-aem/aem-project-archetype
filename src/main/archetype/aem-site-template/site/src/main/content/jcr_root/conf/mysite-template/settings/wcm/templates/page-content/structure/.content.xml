@@ -5,32 +5,32 @@
         cq:deviceGroups="[mobile/groups/responsive]"
         cq:template="/conf/mysite-template/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
-        sling:resourceType="mysite/components/page">
+        sling:resourceType="${appId}/components/page">
         <root
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="mysite/components/container"
+            sling:resourceType="${appId}/components/container"
             layout="responsiveGrid">
             <experiencefragment-header
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="mysite/components/experiencefragment"
+                sling:resourceType="${appId}/components/experiencefragment"
                 fragmentVariationPath="/content/experience-fragments/mysite-template/us/en/site/header/master"/>
             <container
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="mysite/components/container"
+                sling:resourceType="${appId}/components/container"
                 layout="responsiveGrid">
                 <title
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="mysite/components/title"
+                    sling:resourceType="${appId}/components/title"
                     editable="{Boolean}true"/>
                 <container
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="mysite/components/container"
+                    sling:resourceType="${appId}/components/container"
                     editable="{Boolean}true"
                     layout="responsiveGrid"/>
             </container>
             <experiencefragment-footer
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="mysite/components/experiencefragment"
+                sling:resourceType="${appId}/components/experiencefragment"
                 fragmentVariationPath="/content/experience-fragments/mysite-template/us/en/site/footer/master"/>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
