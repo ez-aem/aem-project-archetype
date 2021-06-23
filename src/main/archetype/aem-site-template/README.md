@@ -1,8 +1,8 @@
 # AEM Quick Site Template with Proxy Component Support
 
-build and install the generated project (no need to install the content but ok to do so)
+1. Build and install the generated project (no need to install the content but ok to do so)
 
-then build this project
+2. Then build this project
 
 ```bash
 npm i
@@ -11,13 +11,11 @@ npm run build
 npm run deploy
 ```
 
-go to AEM and create a site form template
+3. Go to AEM and create a site form template.
 
-## previous docs
+## ${appTitle} Site Template
 
-## MySite Site Template
-
-This is the MySite site template for Adobe Experience Manager as a Cloud Service (AEMaaCS).
+This is the ${appTitle} site template for Adobe Experience Manager as a Cloud Service (AEMaaCS).
 
 <img src="previews/site.png?raw=true" alt="Minimal  site preview" width="50%">
 
