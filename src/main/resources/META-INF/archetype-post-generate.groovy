@@ -109,6 +109,9 @@ removeModule(rootPom, 'dispatcher.cloud')
 if (includeQuickSiteTemplate == "n") {
     assert new File(rootDir, "aem-site-template").deleteDir()
     assert new File(rootDir, "README-QUICK_SITE.md").delete()
+} else {
+    // quick site templates should be used to create sites if enabled. ui.content module not needed.
+    removeModule(rootPom, 'ui.content')
 }
 
 if (includeCommerce == "n") {
