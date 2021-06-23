@@ -1,12 +1,12 @@
 {
-  "name": "mysite-template",
-  "version": "0.0.5",
-  "description": "Minimal AEM Site Template that serves as a clean starting point.",
+  "name": "${appId}-template",
+  "version": "0.0.1",
+  "description": "Minimal AEM Site Template that serves as a clean starting point for ${appId}.",
   "license": "MIT License, Copyright 2020 Adobe Systems Incorporated",
   "scripts": {
     "build": "aem-site-template-builder",
-    "deploy": "curl -u admin:admin -F file=@mysite-template-latest.zip http://localhost:4502/conf/global/site-templates.import.html",
-    "undeploy": "curl -u admin:admin -F ':operation=delete' http://localhost:4502/conf/global/site-templates/mysite-template-0.0.5"
+    "deploy": "curl -u admin:admin -F file=@${appId}-template-latest.zip http://localhost:4502/conf/global/site-templates.import.html",
+    "undeploy": "curl -u admin:admin -F ':operation=delete' http://localhost:4502/conf/global/site-templates/${appId}-template-0.0.5"
   },
   "devDependencies": {
     "@adobe/aem-site-template-builder": "2.1.3",
