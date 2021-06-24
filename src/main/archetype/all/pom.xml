@@ -65,7 +65,7 @@
                             <artifactId>${rootArtifactId}.core</artifactId>
                             <target>/apps/${appId}-packages/application/install</target>
                         </embedded>
-#if ( $includeQuickSiteTemplate != "y" )
+#if ( $includeExperienceTemplate != "y" )
                         <embedded>
                             <groupId>${groupId}</groupId>
                             <artifactId>${rootArtifactId}.ui.content</artifactId>
@@ -302,7 +302,7 @@
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
-#if ( $includeQuickSiteTemplate != "y" )
+#if ( $includeExperienceTemplate != "y" )
         <dependency>
             <groupId>${groupId}</groupId>
             <artifactId>${rootArtifactId}.ui.content</artifactId>

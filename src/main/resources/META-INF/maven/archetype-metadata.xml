@@ -186,7 +186,7 @@
             Option to include Experience Template
             aem-experience-template directory.
         -->
-        <requiredProperty key="includeQuickSiteTemplate">
+        <requiredProperty key="includeExperienceTemplate">
             <defaultValue>n</defaultValue>
             <validationRegex>^(y|n)$</validationRegex>
         </requiredProperty>
