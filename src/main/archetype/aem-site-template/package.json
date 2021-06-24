@@ -6,7 +6,8 @@
   "scripts": {
     "build": "aem-site-template-builder",
     "deploy": "curl -u admin:admin -F file=@${appId}-template-latest.zip http://localhost:4502/conf/global/site-templates.import.html",
-    "undeploy": "curl -u admin:admin -F ':operation=delete' http://localhost:4502/conf/global/site-templates/${appId}-template-0.0.1"
+    "undeploy": "curl -u admin:admin -F ':operation=delete' http://localhost:4502/conf/global/site-templates/${appId}-template-0.0.1",
+    "git-init": "node tools/git-init.js"
   },
   "devDependencies": {
     "@adobe/aem-site-template-builder": "2.1.3",
@@ -20,5 +21,8 @@
     "docsUrl": "",
     "showcaseUrl": "",
     "sourceRepositoryUrl": "https://github.com/ez-aem/mysite"
+  },
+  "dependencies": {
+    "git-init": "^1.0.0"
   }
 }

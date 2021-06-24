@@ -52,6 +52,9 @@
         <module>ui.frontend.angular</module>
         <module>ui.frontend.react</module>
         <module>ui.tests</module>
+#if ( $includeQuickSiteTemplate == "y" )
+        <module>aem-site-template</module>
+#end
     </modules>
 
     <properties>

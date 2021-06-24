@@ -1,12 +1,6 @@
 # AEM Quick Site Template with Proxy Component Support
 
-1. Build and install the generated project (no need to install the content but ok to do so)
-
-2. Then build this project
-
 ```bash
-npm i
-git init
 npm run build
 npm run deploy
 ```
