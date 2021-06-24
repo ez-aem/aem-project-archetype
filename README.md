@@ -90,6 +90,7 @@ Name                      | Default        | Description
 `amp`                     | `n`            | Enable [AMP](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/amp.html) support for genenerated project templates.
 `enableDynamicMedia`      | `n`            | Enabled foundation DynamicMedia components in project policy settings and activates Dynamic Media features in Core Image component's policy.
 `enableSSR`    | `n`            | Option to enable SSR for the front-end project
+`includeQuickSiteTemplate`    | `n`            | Option to include AEM Site Template project. This disables the `ui.content` package since quick site templates can be used to create sample sites."
 
 ## System Requirements
 
